@@ -1,0 +1,142 @@
+<html>
+
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+        section {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 7%;
+        }
+        
+        .a1 {
+            height: 480px;
+            width: 250px;
+            background-color: #696969;
+            border-radius: 7px;
+            margin: 0 5px;
+        }
+        
+        .a1:hover {
+            transform: scale(1.2);
+        }
+        
+        .t1 {
+            background-color: #35d4b2;
+            width: 100%;
+            height: 50px;
+            border-top-left-radius: 7px;
+            border-top-right-radius: 7px;
+        }
+        
+        .t11 {
+            background-color: #3141a6;
+            width: 100%;
+            height: 50px;
+            border-top-left-radius: 7px;
+            border-top-right-radius: 7px;
+        }
+        
+        .t2 {
+            width: 100%;
+            height: 120px;
+        }
+        
+        .text {
+            color: white;
+            font-weight: bold;
+            font-size: 15pt;
+        }
+        
+        .l {
+            color: white;
+            font-weight: bold;
+            font-family: 'Merriweather', serif;
+        }
+        
+        .ll {
+            color: grey;
+            font-weight: bold;
+            font-family: 'Merriweather', serif;
+        }
+        
+        input:hover {
+            cursor: pointer;
+            background-color: #696969;
+        }
+        
+        .dark-mode {
+            background-color: black;
+        }
+    </style>
+</head>
+<script>
+    function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+    }
+</script>
+
+<body>
+    <button name="mode" onclick="myFunction()">Change mode</button>
+    <section>
+        <div class="a1">
+            <div class="t1">
+                <br>
+                <center> <label for="pro" class="text">PRO</label></center>
+                <hr style="background-color: grey;opacity: 0.5;"> </div>
+            <div class="t2"><br><br>
+                <center><label class="l" for="50"> $50</label> <br> <label for="ll" class="ll"> /Month</label></center>
+            </div>
+            <hr style="background-color: grey;opacity: 0.5;">
+            <center><br><label class="l" for="1"> 1</label> <label for="ll" class="ll"> Domain(s)</label> </center><br>
+            <hr style="background-color: grey;opacity: 0.5;">
+            <center><br> <label for="ll" class="ll"> Addons</label> </center><br>
+            <hr style="background-color: grey;opacity: 0.5;">
+            <center><br><label class="l" for="1"> 1 Year</label> <label for="ll" class="ll"> Support</label> </center><br>
+            <hr style="background-color: grey;opacity: 0.5;">
+            <center><br><label class="l" for="1" style="font-size: 16pt;"> Buy Now</label> </center>
+        </div>
+
+
+        <div class="a1">
+            <div class="t11">
+                <br>
+                <center> <label for="pro" class="text">BUSINESS</label></center>
+                <hr style="background-color: grey;opacity: 0.5;"> </div>
+            <div class="t2"><br><br>
+                <center><label class="l" for="50"> $110</label> <br> <label for="ll" class="ll"> /Month</label></center>
+            </div>
+            <hr style="background-color: grey;opacity: 0.5;">
+            <center><br><label class="l" for="1"> 5</label> <label for="ll" class="ll"> Domain(s)</label> </center><br>
+            <hr style="background-color: grey;opacity: 0.5;">
+            <center><br> <label for="ll" class="ll"> Addons</label> </center><br>
+            <hr style="background-color: grey;opacity: 0.5;">
+            <center><br><label class="l" for="1"> 1 Year</label> <label for="ll" class="ll"> Support</label> </center><br>
+            <hr style="background-color: grey;opacity: 0.5;">
+            <center><br><label class="l" for="1" style="font-size: 16pt;"> Buy Now</label> </center>
+        </div>
+        <div class="a1">
+            <div class="t1">
+                <br>
+                <center> <label for="pro" class="text">DEV</label></center>
+                <hr style="background-color: grey;opacity: 0.5;"> </div>
+            <div class="t2"><br><br>
+                <center><label class="l" for="50"> $220</label> <br> <label for="ll" class="ll"> /Month</label></center>
+            </div>
+            <hr style="background-color: grey;opacity: 0.5;">
+            <center><br><label class="l" for="1"> Unlimited</label> <label for="ll" class="ll"> Domain(s)</label> </center><br>
+            <hr style="background-color: grey;opacity: 0.5;">
+            <center><br> <label for="ll" class="ll"> Addons</label> </center><br>
+            <hr style="background-color: grey;opacity: 0.5;">
+            <center><br><label class="l" for="1"> Lifetime</label> <label for="ll" class="ll"> Support</label> </center><br>
+            <hr style="background-color: grey;opacity: 0.5;">
+            <center><br><label class="l" for="1" style="font-size: 16pt;"> Buy Now</label> </center>
+
+        </div>
+    </section>
+
+</body>
+
+</html>
